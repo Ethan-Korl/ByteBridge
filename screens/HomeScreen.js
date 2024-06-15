@@ -49,6 +49,7 @@ const HomeScreen = ({navigation}) => {
             data={data}
             numColumns={3} 
             renderItem={renderItem} 
+            showsVerticalScrollIndicator = {false}
             keyExtractor={item => item.name}
         />
       <StatusBar style="auto" />

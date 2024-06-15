@@ -5,7 +5,7 @@ import ProfileButton from './ProfileButton'
 
 const NavBar = () => {
   return (
-    <View className='h-15 flex-row justify-between p-3 bg-slate-800 mt-9 rounded-2xl'>
+    <View className='h-15 flex-row justify-between p-3 bg-white mt-9'>
         <View>
             <ProfileButton />
         </View>

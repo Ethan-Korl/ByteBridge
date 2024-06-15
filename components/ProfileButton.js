@@ -10,9 +10,9 @@ const ProfileButton = () => {
     <Icon 
     name='user'
     type='antdesign'
-    color={"white"}
+    color={"#1f4155"}
     />
-    <Text className="text-white">{username}</Text>
+    <Text className="text-slate-900">{username}</Text>
   </Pressable>
   )
 }

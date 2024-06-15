@@ -103,6 +103,7 @@ const AudioScreen = () => {
     <View className='container flex-1 p-2 bg-slate-200 rounded-md'>
     <FlatList 
         data={musicFiles} 
+        showsVerticalScrollIndicator={false}
         renderItem={renderItem} 
         keyExtractor={item => item.id}
     />

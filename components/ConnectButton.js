@@ -11,9 +11,9 @@ const ConnectButton = () => {
      <Icon 
      name='wifi'
      type='antdesign'
-     color={"white"}
+     color={"#1f4155"}
      />
-     <Text className="text-white">Connect</Text>
+     <Text className="text-slate-900">Connect</Text>
    </Pressable>
   )
 }

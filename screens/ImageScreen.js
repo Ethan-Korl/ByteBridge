@@ -68,6 +68,7 @@ const ImageScreen = ({navigation}) => {
             data={imageList}
             numColumns={2} 
             renderItem={renderItem} 
+            showsVerticalScrollIndicator={false}
             // contentContainerStyle={styles.flatListContainer}
             keyExtractor={(item, index) => index.toString()}
         />
